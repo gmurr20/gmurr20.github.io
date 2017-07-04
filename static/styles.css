@@ -1,0 +1,156 @@
+.row {
+    padding: 0px;
+}
+body {
+   font-family: sans-serif;
+   color: black;
+}
+a {
+    text-decoration:none;
+}
+h3 {
+    color: #37c;
+    font-size: 25px;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+p {
+    font-size:16px;
+}
+#nameSmall {
+    position: relative;
+    font-size:35px;
+    top: 150px;
+    text-align: center;
+    color: white;
+    font-family:raleway;
+}
+.picture {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/colorBackground.jpg");
+    position: relative;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: 525px;
+    color: white;
+}
+.line {
+    line-height: .5;
+}
+#title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    color: black;
+    margin-top: 20px;
+}
+
+#about-image {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 0px 10px gray;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-image: url("./images/about-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aboutMe {
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    border-radius:25px;
+    border: 1px solid lightgray;
+}
+#subtitle {
+    color:  forestgreen;
+    font-size: 16px;
+    margin-top:-4px;
+    font-weight:bold;
+}
+#location {
+    color: black;
+    font-size: 16px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.space {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*line header from: http://vclever.com/blog/how-to-style-a-heading-with-horizontal-lines-either-side-using-css/*/
+h1 {
+ overflow: hidden;
+ text-align: center;
+}
+h1:before,
+h1:after {
+ background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 50%;
+}
+h1:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+h1:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+/*button sources from: https://codepen.io/cheeriottis/pen/inluv*/
+.animate
+{
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+.action-button
+{
+    position: relative;
+    top: 175px;
+    padding: 5px 30px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: #FFF;
+    text-decoration: none;  
+}
+.action-button:hover {
+    color: #FFF;
+    text-decoration:none;
+    font-weight:bolder;
+}
+.blue
+{
+    background-color: #3498DB;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+}
+.green
+{
+    background-color: #82BF56;
+    border-bottom: 5px solid #669644;
+    text-shadow: 0px -2px #669644;
+}
+
+.action-button:active
+{
+    transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
