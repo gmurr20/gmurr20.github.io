@@ -29,7 +29,7 @@ p {
 .picture {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./images/colorBackground.jpg");
+    background-image: url("./images/colorBackground.JPG");
     position: relative;
     z-index: 1;
     left: 0;
