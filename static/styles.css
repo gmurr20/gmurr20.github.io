@@ -1,8 +1,8 @@
 .row {
-    padding: 0px;
+    margin: 0;
 }
 body {
-   font-family: sans-serif;
+   font-family: raleway;
    color: black;
 }
 a {
@@ -10,13 +10,31 @@ a {
 }
 h3 {
     color: #37c;
-    font-size: 25px;
+    font-size: 22px;
     margin-top:5px;
     margin-bottom:5px;
     font-weight:bold;
 }
 p {
     font-size:16px;
+}
+.topPic {
+    padding:0;
+}
+.photoContainer {
+    margin: auto;
+    padding:0;
+    text-align: center;
+    display:inline-block;
+}
+.photoSpacingRight {
+    width:40px;
+    display:inline-block;
+}
+.photoSpacingLeft {
+    width:15px;
+    height:100%;
+    display:inline-block;
 }
 #nameSmall {
     position: relative;
@@ -69,18 +87,23 @@ p {
     height: 200px;
     width: 250px;
     border-radius:25px;
-    border: 1px solid lightgray;
+    border: 1px solid gray;
+    text-align:center;
+}
+.aboutMe:hover {
+    border: 3px solid black;
 }
 #subtitle {
     color:  forestgreen;
     font-size: 16px;
-    margin-top:-4px;
+    margin-top:-1px;
     font-weight:bold;
 }
 #location {
     color: black;
     font-size: 16px;
     font-weight:bold;
+    margin-top:2px;
     margin-bottom:10px;
 }
 
@@ -89,10 +112,44 @@ p {
     margin-bottom: 15px;
 }
 
+.background1 {
+    background-color:floralwhite;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.background2 {
+   background-color:#e7e7e7;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.photo {
+    display:inline-flex;
+    border: solid 1px #6b6b6b;
+    margin-top: 5px;
+    -webkit-filter: grayscale(100%);
+}
+
+.photo:hover {
+    -webkit-filter: grayscale(0%);
+}
+h2 {
+    text-align:center;
+    font-weight:lighter;
+}
+.bottomImg {
+    width:125px;
+    width:125px;
+    display:inline-block;
+    margin-right:10px;
+    margin-left:10px;
+}
 /*line header from: http://vclever.com/blog/how-to-style-a-heading-with-horizontal-lines-either-side-using-css/*/
 h1 {
  overflow: hidden;
  text-align: center;
+
 }
 h1:before,
 h1:after {
@@ -112,6 +169,7 @@ h1:after {
  left: 0.5em;
  margin-right: -50%;
 }
+
 /*button sources from: https://codepen.io/cheeriottis/pen/inluv*/
 .animate
 {
