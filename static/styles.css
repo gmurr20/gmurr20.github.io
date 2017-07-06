@@ -144,6 +144,8 @@ h2 {
     display:inline-block;
     margin-right:10px;
     margin-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 /*line header from: http://vclever.com/blog/how-to-style-a-heading-with-horizontal-lines-either-side-using-css/*/
 h1 {
@@ -170,6 +172,15 @@ h1:after {
  margin-right: -50%;
 }
 
+#navBar {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    z-index: 1;
+}
 /*button sources from: https://codepen.io/cheeriottis/pen/inluv*/
 .animate
 {
