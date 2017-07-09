@@ -6,16 +6,16 @@ $("#upArrow").click(function() {
 	var travel = $("#travel").offset().top;
 	var contact = $("#contact").offset().top;
 	if(scrollTop < work) {
-		scrollTo(top);
+		scrolling(top);
 	}
 	else if(scrollTop < projects) {
-		scrollTo(work);
+		scrolling(work);
 	}
 	else if(scrollTop < travel) {
-		scrollTo(projects);
+		scrolling(projects);
 	}
 	else {
-		scrollTo(travel);
+		scrolling(travel);
 	}
 });
 
@@ -26,19 +26,36 @@ $("#downArrow").click(function() {
 	var travel = $("#travel").offset().top;
 	var contact = $("#contact").offset().top;
 	if(scrollTop < work) {
-		scrollTo(work);
+		scrolling(work);
 	}
 	else if(scrollTop < projects) {
-		scrollTo(projects);
+		scrolling(projects);
 	}
 	else if(scrollTop < travel) {
-		scrollTo(travel);
+		scrolling(travel);
 	}
 	else {
-		scrollTo(contact);
+		scrolling(contact);
 	}
 });
-function scrollTo(top) {
+
+$("#mobileAboutMe").click(function() {
+	var work = $("#work").offset().top;
+	scrolling(work);
+});
+$("#mobileProjects").click(function() {
+	var work = $("#projects").offset().top;
+	scrolling(work);
+});
+$("#mobileTravel").click(function() {
+	var work = $("#travel").offset().top;
+	scrolling(work);
+});
+$("#mobileContact").click(function() {
+	var work = $("#contact").offset().top;
+	scrolling(work);
+});
+function scrolling(top) {
     $('html, body').animate({
         scrollTop: top
 	}, 1000);
@@ -47,7 +64,8 @@ function scrollTo(top) {
 function set_body_height() {
     $("#topPic").height($(window).height());
   }
-  $(document).ready(function() {
-    $(window).bind('resize', set_body_height);
-    set_body_height();
-  });
+$(document).ready(function() {
+$(window).bind('resize', set_body_height);
+set_body_height();
+$("#mobileDrop").width($(window).width());
+});

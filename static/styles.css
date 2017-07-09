@@ -1,8 +1,8 @@
 .row {
     margin: 0;
 }
-body {
-   font-family: raleway;
+html * {
+   font-family: 'Pacifico';
    color: black;
 }
 a {
@@ -42,7 +42,7 @@ p {
     top: 40%;
     text-align: center;
     color: white;
-    font-family:raleway;
+    font-family:'Pacifico';
 
 }
 .picture {
@@ -186,7 +186,26 @@ h1:after {
     background-color: #a9a9a9;
     cursor: pointer;
 }
-
+.mobile-top {
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    z-index: 5;
+}
+.dropdown-menu-left {
+    position: absolute;
+    left:-6px;
+    top:-8px;
+    margin: 0px;
+    padding: 0px;
+}
+.dropdown-item {
+    font-size: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-bottom: 1px solid black;
+    height: 50px;
+}
 #upArrow {
     position: fixed;
     bottom: 75px;
