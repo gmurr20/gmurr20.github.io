@@ -186,6 +186,7 @@ h1:after {
     background-color: #a9a9a9;
     cursor: pointer;
 }
+
 #upArrow {
     position: fixed;
     bottom: 75px;
