@@ -21,6 +21,10 @@ p {
 #topPic {
     padding:0;
 }
+.articleLink {
+    border-radius: 5px;
+    border: 1px solid gray;
+}
 .photoContainer {
     margin: auto;
     padding:0;
@@ -127,7 +131,7 @@ p {
 
 .photo {
     display:inline-flex;
-    border: solid 1px #6b6b6b;
+    border: solid 1px whitesmoke;
     margin-top: 5px;
     -webkit-filter: grayscale(100%);
 }

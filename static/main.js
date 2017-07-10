@@ -58,7 +58,7 @@ $("#mobileContact").click(function() {
 function scrolling(top) {
     $('html, body').animate({
         scrollTop: top
-	}, 1000);
+	}, 800);
 }
 
 function set_body_height() {
