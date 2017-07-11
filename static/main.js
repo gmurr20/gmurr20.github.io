@@ -65,7 +65,21 @@ function set_body_height() {
     $("#topPic").height($(window).height());
   }
 $(document).ready(function() {
-$(window).bind('resize', set_body_height);
-set_body_height();
-$("#mobileDrop").width($(window).width());
+	$(window).bind('resize', set_body_height);
+	set_body_height();
+	$("#mobileDrop").width($(window).width());
+
+
 });
+
+$(document.body).click(function(event) {
+	if($("#mobileDrop").is(":visible")) {
+		$("#mobileDrop").slideToggle();
+	}
+});
+$("#mobileNavButton").click(function(e) {
+	$("#mobileDrop").slideToggle();
+	e.stopPropagation();
+});
+
+

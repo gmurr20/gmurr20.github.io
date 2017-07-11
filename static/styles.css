@@ -49,10 +49,56 @@ p {
     font-family:'Pacifico';
 
 }
+#mobileNavButton {
+    background-color: #fff;
+    border-radius:4px;
+}
+.topButtonContainers {
+    text-align:center; 
+    position:relative; 
+    top:42%;
+}
+.standardTextAlignCenter {
+    text-align:center;
+}
+.topButton {
+    color: #FFF; 
+    text-decoration: none;
+    font-size: 25px;
+    margin-right:10px;
+    margin-left:10px;
+    width: 125px;
+}
+.resumeButton {
+    background-color: #37c;
+    border-color: #37c;
+}
+.contactButton {
+    background-color: forestgreen;
+    border-color: forestgreen;
+}
+.contactButton:hover {
+    background-color: mediumseagreen;
+    border-color: mediumseagreen;
+}
 .picture {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./images/colorBackground1.jpg");
+    background-image: url("./images/myPhotoBlackWhite.jpg");
+    position: relative;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+}
+.mobilePic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/mobileMyPhotoBlackWhite.JPG");
     position: relative;
     z-index: 1;
     left: 0;
@@ -225,44 +271,4 @@ h1:after {
     padding-top:10px;
     padding-left:1px;
     color:white;
-}
-/*button sources from: https://codepen.io/cheeriottis/pen/inluv*/
-.animate
-{
-    transition: all 0.1s;
-    -webkit-transition: all 0.1s;
-}
-.action-button
-{
-    padding: 5px 30px;
-    margin: 0px 10px 10px 0px;
-    border-radius: 10px;
-    font-family: 'Pacifico';
-    font-size: 25px;
-    color: #FFF;
-    text-decoration: none;  
-}
-.action-button:hover {
-    color: #FFF;
-    text-decoration:none;
-    font-weight:bolder;
-}
-.blue
-{
-    background-color: #3498DB;
-    border-bottom: 5px solid #2980B9;
-    text-shadow: 0px -2px #2980B9;
-}
-.green
-{
-    background-color: #82BF56;
-    border-bottom: 5px solid #669644;
-    text-shadow: 0px -2px #669644;
-}
-
-.action-button:active
-{
-    transform: translate(0px,5px);
-  -webkit-transform: translate(0px,5px);
-    border-bottom: 1px solid;
 }
