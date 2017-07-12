@@ -188,6 +188,7 @@ p {
     border: solid 1px whitesmoke;
     margin-top: 5px;
     -webkit-filter: grayscale(100%);
+    color:white;
 }
 
 .photo:hover {
