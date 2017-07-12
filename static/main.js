@@ -72,12 +72,8 @@ $(document).ready(function() {
 
 });
 
-$(document.body).click(function(event) {
-	if($("#mobileDrop").is(":visible")) {
-		$("#mobileDrop").slideToggle();
-	}
-});
-$(document.body).on("tap", function(event) {
+
+$(document.body).on("click touch", function(event) {
 	if($("#mobileDrop").is(":visible")) {
 		$("#mobileDrop").slideToggle();
 	}
