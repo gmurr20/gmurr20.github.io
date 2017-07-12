@@ -73,7 +73,7 @@ $(document).ready(function() {
 });
 
 
-$(document.body).on("click touch", function(event) {
+$(document.body).on("click touchstart", function(event) {
 	if($("#mobileDrop").is(":visible")) {
 		$("#mobileDrop").slideToggle();
 	}
