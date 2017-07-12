@@ -21,8 +21,13 @@ p {
 #topPic {
     padding:0;
 }
+#bioDescription {
+    font-weight:bold;
+}
+#travelDescription {
+    text-align:center; font-style:italic; font-weight:normal;
+}
 .articleLink {
-    border-radius: 5px;
     border: 1px solid gray;
 }
 .photoContainer {
