@@ -72,14 +72,21 @@ $(document).ready(function() {
 
 });
 
-
+var isToggling = false;
 $(document.body).on("click touchstart", function(event) {
-	if($("#mobileDrop").is(":visible")) {
-		$("#mobileDrop").slideToggle();
+	if($("#mobileDrop").is(":visible") && !isToggling) {
+		isToggling = true;
+		$("#mobileDrop").slideToggle( function() {
+			isToggling = false;
+		});
+
 	}
 });
-$("#mobileNavButton").on("click touchstart", function(e) {
-	$("#mobileDrop").slideToggle();
+$("#mobileNavButton").on("click", function(e) {
+	isToggling = true;
+	$("#mobileDrop").slideToggle(function() {
+			isToggling = false;
+		});
 	e.stopPropagation();
 });
 
