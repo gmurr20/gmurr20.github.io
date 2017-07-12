@@ -77,6 +77,11 @@ $(document.body).click(function(event) {
 		$("#mobileDrop").slideToggle();
 	}
 });
+$(document.body).on("tap", function(event) {
+	if($("#mobileDrop").is(":visible")) {
+		$("#mobileDrop").slideToggle();
+	}
+});
 $("#mobileNavButton").click(function(e) {
 	$("#mobileDrop").slideToggle();
 	e.stopPropagation();
