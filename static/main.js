@@ -78,7 +78,7 @@ $(document.body).on("click touchstart", function(event) {
 		$("#mobileDrop").slideToggle();
 	}
 });
-$("#mobileNavButton").click(function(e) {
+$("#mobileNavButton").on("click touchstart", function(e) {
 	$("#mobileDrop").slideToggle();
 	e.stopPropagation();
 });
