@@ -1,0 +1,134 @@
+{
+	"bioDescription":"lorem ipsum",
+	"travelDescription":"I love to travel and meet new people. Here are some of my favorite memories over the years.",
+	"travelYoutube":"https://www.youtube.com/embed/cxQLUCq6P-c",
+	"contactDescription":"I'm Chicago raised, a driven developer, and 2006 Time Magazine's Person of the Year. Let's get in touch.",
+	"work": 
+		[
+			{
+				"title":"University of Illinois at Urbana-Champaign",
+				"link":"http://illinois.edu/",
+				"imageUrl":"illinois.jpeg",
+				"position":"B.S. in Computer Science with Mathematics Minor, May 2018",
+				"location":"Champaign, IL",
+				"description":"lorem ipsum"
+			},
+			{
+				"title":"Echelon Consulting",
+				"link":"http://www.echelon.org/",
+				"imageUrl":"echelon.jpeg",
+				"position":"Software Engineer Intern, Summer 2017",
+				"location":"Chicago, IL",
+				"description":"lorem ipsum"
+			},
+			{
+				"title":"Pivotal Labs",
+				"link":"https://pivotal.io/labs",
+				"imageUrl":"pivotal.jpg",
+				"position":"Software Engineer Intern, Summer 2016",
+				"location":"Chicago, IL",
+				"description":"lorem ipsum",
+				"article": {
+					"link":"https://www.linkedin.com/pulse/pivotal-your-standard-internship-alexxa-stiefel",
+					"imageUrl":"pivotalArticle.png"
+				}
+			},
+			{
+				"title":"Citadel LLC",
+				"link":"https://www.citadel.com/",
+				"imageUrl":"citadel.jpg",
+				"position":"Citadel Technology Intern, Summer 2015",
+				"location":"Chicago, IL",
+				"description":"lorem ipsum"
+			}
+		],
+
+	"projects":
+		[
+			{
+				"title":"Raspberry Pi Google Calendar TV Alarm",
+				"link":"#",
+				"imageUrl":"raspberryPi.jpeg",
+				"position":"Spring 2017",
+				"description":"lorem ipsum"
+			},
+			{
+				"title":"Fantasy Sports Lineup Generator",
+				"link":"#",
+				"imageUrl":"sports.jpg",
+				"position":"Fall 2016",
+				"description":"lorem ipsum"
+			},
+			{
+				"title":"Personal Website and Photo Album",
+				"link":"#",
+				"imageUrl":"website.jpg",
+				"position":"Spring 2017",
+				"description":"lorem ipsum"
+			}
+		],
+
+	"photos":
+		[
+			{
+				"mainImage":"lakePiney.JPG",
+				"smallImage":"lakePiney_sm.JPG",
+				"description":"Lake Piney in Colorado, Summer 2015"
+			},
+			{
+				"mainImage":"pisaYard.JPG",
+				"smallImage":"pisaYard_sm.JPG",
+				"description":""
+			},
+			{
+				"mainImage":"pisaTown.JPG",
+				"smallImage":"pisaTown_sm.JPG",
+				"description":""
+			},
+			{
+				"mainImage":"florence.JPG",
+				"smallImage":"florence_sm.JPG",
+				"description":""
+			},
+			{
+				"mainImage":"cinqueTerra.JPG",
+				"smallImage":"cinqueTerra_sm.JPG",
+				"description":""
+			},
+			{
+				"mainImage":"leaningTowerView.JPG",
+				"smallImage":"leaningTowerView_sm.JPG",
+				"description":""
+			},
+			{
+				"mainImage":"swedenSwim.JPG",
+				"smallImage":"swedenSwim_sm.JPG",
+				"description":""
+			},
+			{
+				"mainImage":"sweden.JPG",
+				"smallImage":"sweden_sm.JPG",
+				"description":""
+			},
+			{
+				"mainImage":"wimbledon.JPG",
+				"smallImage":"wimbledon_sm.JPG",
+				"description":""
+			},
+			{
+				"mainImage":"paris.JPG",
+				"smallImage":"paris_sm.JPG",
+				"description":""
+			},
+			{
+				"mainImage":"florenceBridge.JPG",
+				"smallImage":"florenceBridge_sm.JPG",
+				"description":""
+			},
+			{
+				"mainImage":"vatican.JPG",
+				"smallImage":"vatican_sm.JPG",
+				"description":""
+			}
+		]
+}
