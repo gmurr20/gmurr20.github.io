@@ -159,13 +159,11 @@ bottomOfPage = '''
 def generateBioDescription(description):
   htmlContent = '''
   <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-3 col-xs-1"></div>
+      <div class="col-lg-3 col-md-4 col-sm-3 col-xs-1"></div>
       <div id="bioDescription" class="col-lg-6 col-md-4 col-sm-6 col-xs-10">
-        <p>
           %s
-        </p>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-3 col-xs-1"></div>
+      <div class="col-lg-3 col-md-4 col-sm-3 col-xs-1"></div>
     </div>
 
     <div class="row space"></div>

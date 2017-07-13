@@ -2,7 +2,7 @@
     margin: 0;
 }
 html * {
-   font-family: 'Pacifico';
+   font-family: "open sans", helvetica, sans-serif;
    color: black;
 }
 a {
@@ -22,7 +22,8 @@ p {
     padding:0;
 }
 #bioDescription {
-    font-weight:bold;
+    font-size:20px;
+    text-align:center;
 }
 #travelDescription {
     text-align:center; font-style:italic; font-weight:normal;
