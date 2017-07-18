@@ -207,9 +207,7 @@ def generateRightWork(link, imageUrl, title, position, location, description):
         <h3>%s</h3>
         <div id="subtitle">%s</div>
         <div id="location">%s</div>
-        <p>
           %s
-        </p>
       </div>
       <div class="col-lg-2 col-md-2 col-sm-1 hidden-xs"></div>
     </div>
@@ -237,9 +235,7 @@ def generateLeftWork(link, imageUrl, title, position, location, description):
         <h3>%s</h3>
         <div id="subtitle">%s</div>
         <div id="location">%s</div>
-        <p>
           %s
-        </p>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
         <div class="hidden-xs" style="float:left;">
