@@ -213,8 +213,7 @@ def generateRightWork(link, imageUrl, title, position, location, description):
     </div>
     <div class="row space hidden-lg hidden-md hidden-sm"></div>
     <div class="row hidden-lg hidden-md hidden-sm">
-      <div class="col-xs-1"></div>
-      <div class="col-xs-10">
+      <div class="col-xs-12 mobilePadding">
         <h3 class="standardTextAlignCenter">%s</h3>
         <div class="standardTextAlignCenter" id="subtitle">%s</div>
         <div class="standardTextAlignCenter" id="location">%s</div>
@@ -222,7 +221,6 @@ def generateRightWork(link, imageUrl, title, position, location, description):
           %s
         </p>
       </div>
-      <div class="col-xs-1"></div>
     </div>
   ''' %(link, imageUrl, title, position, location, description, title, position, location, description)
   return htmlContent
@@ -253,8 +251,7 @@ def generateLeftWork(link, imageUrl, title, position, location, description):
     </div>
     <div class="row space hidden-lg hidden-md hidden-sm"></div>
     <div class="row hidden-lg hidden-md hidden-sm">
-      <div class="col-xs-1"></div>
-      <div class="col-xs-10">
+      <div class="col-xs-12 mobilePadding">
         <h3  class="standardTextAlignCenter">%s</h3>
         <div class="standardTextAlignCenter" id="subtitle">%s</div>
         <div class="standardTextAlignCenter" id="location">%s</div>
@@ -262,7 +259,6 @@ def generateLeftWork(link, imageUrl, title, position, location, description):
           %s
         </p>
       </div>
-      <div class="col-xs-1"></div>
     </div>
   ''' %(title, position, location, description, link, imageUrl, link, imageUrl, title, position, location, description)
   return htmlContent
