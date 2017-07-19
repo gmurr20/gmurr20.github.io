@@ -294,8 +294,8 @@ def generateTopTravel(description, youtubeLink):
 def generateFancyImage(mainImage, smallImage, description):
   htmlContent = '''
   <div class="photo">
-    <a href="./static/photoGallery/%s" data-fancybox="images" data-caption="%s">
-        <img src="./static/photoGallery/%s" height="150px" width="150px"/>
+    <a href="./static/photoGallery/%s" data-fancybox="images" data-caption="%s" class="round">
+        <img src="./static/photoGallery/%s" height="150px" width="150px" class="round"/>
     </a>
   </div>
   '''%(mainImage, description, smallImage)

@@ -16,7 +16,7 @@ h3 {
     font-weight:bold;
 }
 p {
-    font-size:15px;
+    font-size:16px;
     font-weight:300;
 }
 #topPic {
@@ -168,7 +168,10 @@ p {
     margin-top:2px;
     margin-bottom:5px;
 }
-
+.round {
+    border-radius:100%;
+    box-shadow: 0px 0px 10px gray;
+}
 .space {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -188,10 +191,13 @@ p {
 
 .photo {
     display:inline-flex;
-    border: solid 1px whitesmoke;
-    margin-top: 5px;
+    margin-top: 10px;
     -webkit-filter: grayscale(100%);
     color:white;
+    border-radius:100%;
+    margin-right:5px;
+    margin-left:5px;
+
 }
 
 .photo:hover {
