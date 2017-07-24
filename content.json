@@ -19,7 +19,7 @@
 				"imageUrl":"echelon.jpeg",
 				"position":"Software Engineer Intern, Summer 2017",
 				"location":"Chicago, IL",
-				"description":"lorem ipsum"
+				"description":"<p>Echelon Consulting is a software shop that specializes in building and supporting full lifecycle applications for its clients.</p><p>Echelon helped me gain an inside look on how a small software firm operates to get the most out of its employees to be successful. Being put on two projects throughout my summer at Echelon, I had to learn to balance two completely different applications and make the necessary changes to improve the product. Learning to manage my time wisely and learn new technology stacks such as SOLR search when called upon, my time here definitely improved my software skills and hunger to learn more.</p><p>Tech used: Java Spring MVC, Oracle SQL, Apache SOLR search, Dojo.js, HTML, Less</p>"
 			},
 			{
 				"title":"Pivotal Labs",
@@ -27,7 +27,7 @@
 				"imageUrl":"pivotal.jpg",
 				"position":"Software Engineer Intern, Summer 2016",
 				"location":"Chicago, IL",
-				"description":"<p>Pivotal Labs is a programming consulting company that teaches clients how to program in an agile software development cycle.</p><p>This internship really opened my mind to the importance of following the right practices when it comes to software development. Being brand new to both pair programming and test driven development, Pivotal Labs showed me just how useful and powerful developers can be when well organized. Through the continuous delivery of our application and weekly scrum meetings, I gained invaluable experience coding with some of the best developers in the business. Even though I was unfamiliar with the technology stack we were using, I was able to quickly learn and contribute like a true Pivot. I became a more well-rounded developer, as I improved in communicating my ideas clearly to my co-workers, and learned to be open to change when a better solution was presented.</p><p>Below is an article that Pivotal Labs wrote about my time there.</p>",
+				"description":"<p>Pivotal Labs is a programming consulting company that teaches clients how to program in an agile software development cycle.</p><p>This internship really opened my mind to the importance of following the right practices when it comes to software development. Being brand new to both pair programming and test driven development, Pivotal Labs showed me just how useful and powerful developers can be when well organized. Through the continuous delivery of our application and weekly scrum meetings, I gained invaluable experience coding with some of the best developers in the business.</p><p>Below is an article that Pivotal Labs wrote about my time there.</p><p>Tech used: React.js, Redux.js, Node.js, Pivotal Cloud Foundry, Java Spring, HTML, Less</p>",
 				"article": {
 					"link":"https://www.linkedin.com/pulse/pivotal-your-standard-internship-alexxa-stiefel",
 					"imageUrl":"pivotalArticle.png"
@@ -39,7 +39,7 @@
 				"imageUrl":"citadel.jpg",
 				"position":"Citadel Technology Intern, Summer 2015",
 				"location":"Chicago, IL",
-				"description":"<p>Citadel is hedge fund located in Chicago, and is a leading investor in financial markets around the world. The sector that I worked in, Citadel Technology, was a business that marketed and sold their trading application to other companies.</p><p>I was lucky enough to intern for Citadel my freshman year, joining the support and implementation team in CTECH. Getting to see how software development worked in the workplace for the first time, I helped automate software environment checks, optimized existing scripts, and even created my own script to stress test their financial software. Citadel showed me how to keep your head to the grind stone to get the job done, and that the best way to learn coding is through simply playing around with unfamiliar technologies. Teaching myself the concept of threading and Python scripting during my time there, this internship confirmed my choice in picking the right profession.</p>"
+				"description":"<p>Citadel is a hedge fund and a leading investor in financial markets around the world. The sector that I worked in, Citadel Technology, was a business that marketed and sold their trading application to other companies.</p><p>Getting to see how software development worked in the workplace for the first time, I helped automate software environment checks, optimized existing scripts, and even created my own program to stress test their financial software. Citadel showed me how to keep your head to the grind stone to get the job done, and that the best way to learn coding is through simply playing around with unfamiliar technologies. Seeing the simple intricacies and interesting problems being solved every single day at Citadel, this internship confirmed my choice in picking the right profession.</p><p>Tech used: Python, matplotlib, shell scripting, FIX protocol</p>"
 			}
 		],
 
@@ -47,24 +47,24 @@
 		[
 			{
 				"title":"Raspberry Pi Google Calendar TV Alarm",
-				"link":"#",
-				"imageUrl":"raspberryPi.jpeg",
+				"link":"https://github.com/gmurr20/CollegeTVDevice",
+				"imageUrl":"raspberryPi.jpg",
 				"position":"Spring 2017",
-				"description":"lorem ipsum"
+				"description":"<p>Having a busy schedule at school and struggling to wake up most mornings, I created a television alarm with a raspberry pi computer to help me be better organized. Using the google calendar api, I integrated my schedule to turn on my bedroom TV an hour before my first event is scheduled for the day. The TV then displays my application, which shows the weather for the week, time, a couple news articles, and my schedule using various apis I found online. It then gives me a quick greeting prompting me to wake up, and gives me time to see what I have going on for the day before it shuts itself down.</p><p>Tech used: Python, Raspberry Pi, cec-client, Google Calendar api, Cron</p>"
 			},
 			{
 				"title":"Fantasy Sports Lineup Generator",
-				"link":"#",
-				"imageUrl":"sports.jpg",
+				"link":"https://github.com/gmurr20/Fantasy-Football-Lineups",
+				"imageUrl":"football.jpg",
 				"position":"Fall 2016",
-				"description":"lorem ipsum"
+				"description":"<p>Being an avid football fan and sports fan in general, I decided to create a script to generate lineups for daily fantasy sports. In daily fantasy sports, you create a lineup of players that you believe will do well, all while staying under a fixed budget. This is a classic knapsack problem in CS, as each player is given a weight. Using BeautifulSoup to scrape multiple sports websites, I compiled a list of statistics for each player over the past couple weeks. Taking these stats as well as using my own judgement, I was able to project how each player will do for that given day. I then was able to run these projections through an AI algorithm found online, generating 5 optimal lineups.</p><p>Tech used: Python, BeautifulSoup, Genetic Algorithm</p>"
 			},
 			{
 				"title":"Personal Website and Photo Album",
-				"link":"#",
-				"imageUrl":"website.jpg",
+				"link":"https://github.com/gmurr20/DjangoWebsite",
+				"imageUrl":"website.png",
 				"position":"Spring 2017",
-				"description":"lorem ipsum"
+				"description":"<p>Originally just used to teach myself HTML and CSS for my internship at Pivotal Labs, my personal website was just supposed to be a teaching project that would never be published. This changed however, as I was tasked with building a website for my programming studio class. I decied to teach myself the Django web framework, where I was able to store all of my data in a database, rendering different components dynamically with HTML templates. I built my own comment section, a photo album with google maps, and even a blog page. I ultimately ended up moving away from this project for the simpler deployment of GitHub pages, but it did open my mind to exploring new technology options.</p><p>Tech used: Django framework, Python, Ajax, JavaScript, HTML, CSS</p>"
 			}
 		],
 
