@@ -95,6 +95,17 @@ p {
 .contactButton:hover {
     background-color: mediumseagreen;
     border-color: mediumseagreen;
+    color:white;
+}
+.contactButton:active {
+    background-color: mediumseagreen;
+    border-color: mediumseagreen;
+    color:white;
+}
+.contactButton:focus {
+    background-color: mediumseagreen;
+    border-color: mediumseagreen;
+    color:white;
 }
 .picture {
     background-repeat: no-repeat;

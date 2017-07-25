@@ -1,6 +1,6 @@
 {
-	"bioDescription":"My name is Greg Murray and I am currently studying CS at the University of Illinois. I have already worked at 3 different companies in software roles, and am a fast learner when it comes to new technology stacks. Here is just a little of what I have done so far.",
-	"travelDescription":"I love to travel and meet new people. Here are some of my favorite memories over the years.",
+	"bioDescription":"Hi and thanks for checking out my site! My name is Greg Murray and I am a student at the University of Illinois. I have worked at 3 different companies in software roles, and am a fast learner when it comes to new technology stacks. Here is just a little of what I have done so far.",
+	"travelDescription":"Contrary to popular belief, I do have a life outside of CS. I love to travel and meet new people. Here are some of my favorite memories over the years.",
 	"travelYoutube":"https://www.youtube.com/embed/cxQLUCq6P-c",
 	"contactDescription":"I'm Chicago raised, a driven developer, and 2006 Time Magazine's Person of the Year. Let's get in touch.",
 	"work": 
@@ -11,7 +11,7 @@
 				"imageUrl":"illinois.jpeg",
 				"position":"B.S. in Computer Science with Mathematics Minor, May 2018",
 				"location":"Champaign, IL",
-				"description":"<p>University of Illinois has taught me to keep an open mind and to never stop working. Studying Computer Science in the College of Engineering, I am constantly pushed to not only learn academically, but also how to manage my time and follow a strict schedule. Being a co-founder of an investment group within my business fraternity on campus, I had to learn to balance my academics with my extracurricular obligations. Illinois has taught me learning is not just done in the classroom, as I am constantly learning new things every day from the people around me.</p><p>Whether it is myself trying to figure out a new language or framework, my great friends sharing their experiences with me, or learning from one of my many fine professors, I am always absorbing new information to grow as a person and a professional.</p>"
+				"description":"<p>University of Illinois has taught me to keep an open mind and to never stop working. Studying Computer Science in the College of Engineering, I am pushed to challenge myself every single day. Whether it is being a co-founder for an investment group on campus or making time to play tennis with friends, I am always trying to keep myself busy every single day. Illinois showed me that learning is not just done in the classroom, as my experiences at school shaped me to be the person I am today.</p><p>Whether it is myself trying to figure out a new language or framework, my great friends sharing their experiences with me, or learning from one of my many fine professors, I am always absorbing new information to grow as a person and a professional.</p>"
 			},
 			{
 				"title":"Echelon Consulting",
@@ -19,7 +19,7 @@
 				"imageUrl":"echelon.jpeg",
 				"position":"Software Engineer Intern, Summer 2017",
 				"location":"Chicago, IL",
-				"description":"<p>Echelon Consulting is a software shop that specializes in building and supporting full lifecycle applications for its clients.</p><p>Echelon helped me gain an inside look on how a small software firm operates to get the most out of its employees to be successful. Being put on two projects throughout my summer at Echelon, I had to learn to balance two completely different applications and make the necessary changes to improve the product. Learning to manage my time wisely and learn new technology stacks such as SOLR search when called upon, my time here definitely improved my software skills and hunger to learn more.</p><p>Tech used: Java Spring MVC, Oracle SQL, Apache SOLR search, Dojo.js, HTML, Less</p>"
+				"description":"<p>Echelon Consulting is a small software shop that specializes in building and supporting full lifecycle applications for its clients.</p><p>Echelon helped me gain an inside look on how a small software firm operates, and showed me just what it takes to be a successful founder of a company. Being put on two projects throughout my summer at Echelon, I had to learn to balance two completely different applications and make the necessary changes when called upon. Learning to manage my time wisely and learn new technology stacks in the process, my time here definitely increased my software skills and hunger to learn more.</p><p>Tech used: Java Spring MVC, Oracle SQL, Apache SOLR search, Dojo.js, HTML, Less</p>"
 			},
 			{
 				"title":"Pivotal Labs",
@@ -39,7 +39,7 @@
 				"imageUrl":"citadel.jpg",
 				"position":"Citadel Technology Intern, Summer 2015",
 				"location":"Chicago, IL",
-				"description":"<p>Citadel is a hedge fund and a leading investor in financial markets around the world. The sector that I worked in, Citadel Technology, was a business that marketed and sold their trading application to other companies.</p><p>Getting to see how software development worked in the workplace for the first time, I helped automate software environment checks, optimized existing scripts, and even created my own program to stress test their financial software. Citadel showed me how to keep your head to the grind stone to get the job done, and that the best way to learn coding is through simply playing around with unfamiliar technologies. Seeing the simple intricacies and interesting problems being solved every single day at Citadel, this internship confirmed my choice in picking the right profession.</p><p>Tech used: Python, matplotlib, shell scripting, FIX protocol</p>"
+				"description":"<p>Citadel is a hedge fund and a leading investor in financial markets around the world. The sector that I worked in, Citadel Technology, was a business that marketed and sold their trading application to other companies.</p><p>Citadel was my first time seeing how software development worked in the work place. During my time I helped automate software environment checks, optimized existing scripts, and even created my own program to stress test their financial software. Citadel showed me how to keep your nose to the grind stone to get the job done, and that the best way to learn coding is through simply playing around with unfamiliar technologies. Being able to see the simple intricacies and interesting problems being solved every single day at Citadel, this internship confirmed my choice in picking the right profession.</p><p>Tech used: Python, matplotlib, shell scripting, FIX protocol</p>"
 			}
 		],
 
@@ -50,21 +50,21 @@
 				"link":"https://github.com/gmurr20/CollegeTVDevice",
 				"imageUrl":"raspberryPi.jpg",
 				"position":"Spring 2017",
-				"description":"<p>Having a busy schedule at school and struggling to wake up most mornings, I created a television alarm with a raspberry pi computer to help me be better organized. Using the google calendar api, I integrated my schedule to turn on my bedroom TV an hour before my first event is scheduled for the day. The TV then displays my application, which shows the weather for the week, time, a couple news articles, and my schedule using various apis I found online. It then gives me a quick greeting prompting me to wake up, and gives me time to see what I have going on for the day before it shuts itself down.</p><p>Tech used: Python, Raspberry Pi, cec-client, Google Calendar api, Cron</p>"
-			},
-			{
-				"title":"Fantasy Sports Lineup Generator",
-				"link":"https://github.com/gmurr20/Fantasy-Football-Lineups",
-				"imageUrl":"football.jpg",
-				"position":"Fall 2016",
-				"description":"<p>Being an avid football fan and sports fan in general, I decided to create a script to generate lineups for daily fantasy sports. In daily fantasy sports, you create a lineup of players that you believe will do well, all while staying under a fixed budget. This is a classic knapsack problem in CS, as each player is given a weight. Using BeautifulSoup to scrape multiple sports websites, I compiled a list of statistics for each player over the past couple weeks. Taking these stats as well as using my own judgement, I was able to project how each player will do for that given day. I then was able to run these projections through an AI algorithm found online, generating 5 optimal lineups.</p><p>Tech used: Python, BeautifulSoup, Genetic Algorithm</p>"
+				"description":"<p>Having a busy schedule at school and struggling to wake up most mornings, I created a television alarm with a raspberry pi computer to help me be better organized. Using the google calendar api, I integrated my schedule to turn on my bedroom TV an hour before my first event was scheduled for the day. The TV would display my application, which showed the weather for the week, time, a couple news articles, and my schedule using various apis I found online. It prompted me to wake up with a basic text to speech module, and gave me time to see what I had going on for the day before it shut itself down. I still use this device every day.</p><p>Tech used: Python, Raspberry Pi, cec-client, Google Calendar api, Cron, HTML, CSS</p>"
 			},
 			{
 				"title":"Personal Website and Photo Album",
 				"link":"https://github.com/gmurr20/DjangoWebsite",
 				"imageUrl":"website.png",
 				"position":"Spring 2017",
-				"description":"<p>Originally just used to teach myself HTML and CSS for my internship at Pivotal Labs, my personal website was just supposed to be a teaching project that would never be published. This changed however, as I was tasked with building a website for my programming studio class. I decied to teach myself the Django web framework, where I was able to store all of my data in a database, rendering different components dynamically with HTML templates. I built my own comment section, a photo album with google maps, and even a blog page. I ultimately ended up moving away from this project for the simpler deployment of GitHub pages, but it did open my mind to exploring new technology options.</p><p>Tech used: Django framework, Python, Ajax, JavaScript, HTML, CSS</p>"
+				"description":"<p>Originally just used to teach myself HTML and CSS for my internship at Pivotal Labs, my personal website was just supposed to be a teaching project that would never be published. This changed however, as I was tasked with building a website for my programming studio class. I decied to teach myself the Django web framework, where I was able to store all of my data in a database, rendering different components dynamically with HTML templates. I built my own comment section, a photo album with google maps, and even a blog page. This whole process opened my mind to exploring new technology options, and taught me that no language or application is too hard for me to learn. The current web page you see today is an adaptation of this old project, as this page is HTML, CSS, and JavaScript all written by me hosted on GitHub Pages.</p><p>Tech used: Django framework, Python, Ajax, JavaScript, HTML, CSS</p>"
+			},
+			{
+				"title":"Fantasy Sports Lineup Generator",
+				"link":"https://github.com/gmurr20/Fantasy-Football-Lineups",
+				"imageUrl":"football.jpg",
+				"position":"Fall 2016",
+				"description":"<p>Being an avid football fan and sports fan in general, I decided to create a script to generate lineups for daily fantasy sports. In daily fantasy sports, you create a lineup of players that you believe will do well, all while staying under a fixed budget. This is a classic knapsack problem in CS, as each player is given a weight. Using BeautifulSoup to scrape multiple sports websites, I compiled a list of statistics for each player over the past couple weeks. Taking these stats as well as using my own judgement, I was able to project how each player will do for that given day. I then was able to run these projections through an AI algorithm found online, generating 5 optimal lineups. This program ended up doing quite well versus the average player, as it had a 65% success rate in the 50/50 contests.</p><p>Tech used: Python, BeautifulSoup, Genetic Algorithm</p>"
 			}
 		],
 

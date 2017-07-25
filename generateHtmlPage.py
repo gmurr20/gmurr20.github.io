@@ -51,7 +51,7 @@ topOfPage = '''
           <div id="nameSmall">welcome to my site.</div>
           <div class="topButtonContainers">
             <a href="./static/Greg_Murray.pdf" target="_blank" class="btn btn-info topButton resumeButton">Resume</a>
-            <a href="mailto:greg.murray20@gmail.com" class="btn btn-info topButton contactButton">Contact</a>
+            <a href="mailto:greg.murray20@gmail.com" class="btn topButton contactButton">Contact</a>
           </div>
       </div>
       <div class="mobilePic hidden-lg hidden-md hidden-sm">
@@ -59,7 +59,7 @@ topOfPage = '''
           <div id="nameSmall">welcome to my site.</div>
           <div class="topButtonContainers">
             <a href="./static/Greg_Murray.pdf" target="_blank" class="btn btn-info topButton resumeButton">Resume</a>
-            <a href="mailto:greg.murray20@gmail.com" class="btn btn-info topButton contactButton">Contact</a>
+            <a href="mailto:greg.murray20@gmail.com" class="btn topButton contactButton">Contact</a>
           </div>
       </div>
     </div>
