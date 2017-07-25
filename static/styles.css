@@ -3,7 +3,6 @@
 }
 html * {
    font-family: "open sans", helvetica, sans-serif;
-   color: black;
 }
 a {
     text-decoration:none;
@@ -183,6 +182,14 @@ p {
     margin-top:2px;
     margin-bottom:5px;
 }
+.contactTitle {
+    color:white;
+    text-align:center;
+}
+.contactTitle:before,
+.contactTitle:after {
+    background-color:white;
+}
 .round {
     border-radius:100%;
     box-shadow: 0px 0px 10px gray;
@@ -203,7 +210,15 @@ p {
     padding-top: 10px;
     padding-bottom: 40px;
 }
-
+.backgroundContact {
+    background: -webkit-linear-gradient(left top,  #274046, #E6DADA); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,  #274046, #E6DADA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,  #274046, #E6DADA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right,  #274046, #E6DADA); /* Standard syntax (must be last) */
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color:white;
+}
 .photo {
     display:inline-flex;
     margin-top: 10px;

@@ -125,11 +125,11 @@ topContact = '''
   <!-- My contact -->
   <a href="#contact"></a>
   <div id="contact"></div>
-  <div class="background2">
+  <div class="backgroundContact">
     <div class="row">
       <div class="col-lg-4 col-md-3 col-sm-2 col-xs-0"></div>
       <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12">
-        <h1>My Contact Info</h1>
+        <h1 class="contactTitle">My Contact Info</h1>
       </div>
       <div class="col-lg-4 col-md-3 col-sm-2 col-xs-0"></div>
     </div>
