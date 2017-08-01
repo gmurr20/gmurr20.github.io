@@ -1,4 +1,10 @@
-$("#upArrow").click(function() {
+var running = false;
+$("#upArrow").on('click', function(e) {
+	if(running) {
+		e.preventDefault();
+		return;
+	}
+	running = true;
 	var scrollTop = $(window).scrollTop() - 50;
 	var top= 0;
 	var work = $("#work").offset().top;
@@ -19,7 +25,12 @@ $("#upArrow").click(function() {
 	}
 });
 
-$("#downArrow").click(function() {
+$("#downArrow").on('click', function(e) {
+	if(running) {
+		e.preventDefault();
+		return;
+	}
+	running = true;
 	var scrollTop = $(window).scrollTop() + 50;
 	var work = $("#work").offset().top;
 	var projects = $("#projects").offset().top;
@@ -58,6 +69,10 @@ $("#mobileContact").click(function() {
 function scrolling(top) {
     $('html, body').animate({
         scrollTop: top
+	}, 800);
+
+	setTimeout(function() {
+		running = false;
 	}, 800);
 }
 

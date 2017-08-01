@@ -37,7 +37,7 @@
 				"title":"Citadel LLC",
 				"link":"https://www.citadel.com/",
 				"imageUrl":"citadel.jpg",
-				"position":"Citadel Technology Intern, Summer 2015",
+				"position":"Technology Intern, Summer 2015",
 				"location":"Chicago, IL",
 				"description":"<p>Citadel is a hedge fund and a leading investor in financial markets around the world. The sector that I worked in, Citadel Technology, was a business that marketed and sold their trading application to other companies.</p><p>Citadel was my first time seeing how software development worked in the work place. During my time I helped automate software environment checks, optimized existing scripts, and even created my own program to stress test their financial software. Citadel showed me how to keep your nose to the grind stone to get the job done, and that the best way to learn coding is through simply playing around with unfamiliar technologies. Being able to see the simple intricacies and interesting problems being solved every single day at Citadel, this internship confirmed my choice in picking the right profession.</p><p>Tech used: Python, matplotlib, shell scripting, FIX protocol</p>"
 			}
@@ -50,7 +50,7 @@
 				"link":"https://github.com/gmurr20/CollegeTVDevice",
 				"imageUrl":"raspberryPi.jpg",
 				"position":"Spring 2017",
-				"description":"<p>Having a busy schedule at school and struggling to wake up most mornings, I created a television alarm with a raspberry pi computer to help me be better organized. Using the google calendar api, I integrated my schedule to turn on my bedroom TV an hour before my first event was scheduled for the day. The TV would display my application, which showed the weather for the week, time, a couple news articles, and my schedule using various apis I found online. It prompted me to wake up with a basic text to speech module, and gave me time to see what I had going on for the day before it shut itself down. I still use this device every day.</p><p>Tech used: Python, Raspberry Pi, cec-client, Google Calendar api, Cron, HTML, CSS</p>"
+				"description":"<p>Having a busy schedule at school and struggling to wake up most mornings, I created a television alarm with a raspberry pi computer to help me be better organized. Using the google calendar api, I integrated my schedule to turn on my bedroom TV an hour before my first event was scheduled for the day. The TV would display my application, which showed the weather for the week, time, a couple news articles, and my schedule using various apis I found online. It prompted me to wake up with a basic text to speech module, and gave me time to see what I had going on for the day before it shut itself down. This was a really fun experience working with a raspberry pi for my first time, as I still use this program every single day.</p><p>Tech used: Python, Raspberry Pi, cec-client, Google Calendar api, Cron, HTML, CSS</p>"
 			},
 			{
 				"title":"Personal Website and Photo Album",
