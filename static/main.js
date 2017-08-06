@@ -79,8 +79,13 @@ function scrolling(top) {
 function set_body_height() {
     $("#topPic").height($(window).height());
   }
+
 $(document).ready(function() {
-	$(window).bind('resize', set_body_height);
+	$(window).bind('resize', function() {
+		if(Math.abs($(window).height()-$("#topPic").height()) > 20) {
+			set_body_height();
+		}
+	});
 	set_body_height();
 	$("#mobileDrop").width($(window).width());
 
