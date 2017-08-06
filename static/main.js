@@ -82,7 +82,7 @@ function set_body_height() {
 
 $(document).ready(function() {
 	$(window).bind('resize', function() {
-		if(Math.abs($(window).height()-$("#topPic").height()) > 20) {
+		if(Math.abs($(window).height()-$("#topPic").height()) > 55) {
 			set_body_height();
 		}
 	});
