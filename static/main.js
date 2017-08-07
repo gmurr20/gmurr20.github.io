@@ -76,18 +76,15 @@ function scrolling(top) {
 	}, 800);
 }
 
-function set_body_height() {
-    $("#topPic").height($(window).height());
-  }
-
 $(document).ready(function() {
 	$(window).bind('resize', function() {
-		set_body_height();
+		if($(window).width() > 800 || Math.abs($(window).height()-$("#topPic").height()) > 100) {
+			$("#topPic").height($(window).height());
+		}
+		
 	});
-	set_body_height();
+	$("#topPic").height($(window).height());
 	$("#mobileDrop").width($(window).width());
-
-
 });
 
 var isToggling = false;
