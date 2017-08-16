@@ -50,19 +50,19 @@ $("#downArrow").on('click', function(e) {
 	}
 });
 
-$("#mobileAboutMe").click(function() {
+$("#mobileAboutMe").on("click touchstart", function() {
 	var work = $("#work").offset().top;
 	scrolling(work);
 });
-$("#mobileProjects").click(function() {
+$("#mobileProjects").on("click touchstart",function() {
 	var work = $("#projects").offset().top;
 	scrolling(work);
 });
-$("#mobileTravel").click(function() {
+$("#mobileTravel").on("click touchstart",function() {
 	var work = $("#travel").offset().top;
 	scrolling(work);
 });
-$("#mobileContact").click(function() {
+$("#mobileContact").on("click touchstart",function() {
 	var work = $("#contact").offset().top;
 	scrolling(work);
 });
