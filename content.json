@@ -1,8 +1,8 @@
 {
-	"bioDescription":"Hi and thanks for checking out my site! My name is Greg Murray and I am a graduate from the University of Illinois. I have worked at 3 different companies in software roles, and am a fast learner when it comes to new technology stacks. Here is just a little of what I have done so far.",
-	"travelDescription":"Contrary to popular belief, I do have a life outside of CS. I love to travel and meet new people. Here are some of my favorite memories over the years.",
+	"bioDescription":"Hi and thanks for checking out my site! My name is Greg Murray and I am a software engineer based out of Chicago. I have a ton of experience with high performant C++ and multi-threaded concepts, as I have been working at a database startup out of college. This website is not always the most up to date, so the best way to reach me is through the contact button below.",
+	"travelDescription":"Here are some of my favorite memories over the years.",
 	"travelYoutube":"https://www.youtube.com/embed/cxQLUCq6P-c",
-	"contactDescription":"I'm Chicago raised, a driven developer, and the most normal CS major Jessica Bicek has ever met. Let's get in touch.",
+	"contactDescription":"I'm Chicago raised, a driven developer, and ready to make an impact. Let's get in touch.",
 	"work": 
 		[
 			{
@@ -53,6 +53,13 @@
 
 	"projects":
 		[
+			{
+				"title":"Dubs App",
+				"link":"https://github.com/gmurr20/dubs_app",
+				"imageUrl":"dub_logo.jpg",
+				"position":"Summer 2020",
+				"description":"<p>During the pandemic, a friend and I decided to teach ourselves Flutter. We were frequently playing video games together online, so thought it would be a fun idea to create a messenger app for us and our close friends. Using the Flutter BLoC pattern, we created a functional messenger app that uses Google Firebase as the backend.</p><p>Tech used: Flutter, Dart, Google Firebase</p>"
+			},
 			{
 				"title":"Raspberry Pi Google Calendar TV Alarm",
 				"link":"https://github.com/gmurr20/CollegeTVDevice",
